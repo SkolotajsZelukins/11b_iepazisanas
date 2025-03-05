@@ -17,6 +17,7 @@ print("Otrais!!! - Ilja Parhomenko")
 
 print ("Kristine Stepuceva!")
 
+print("Denni Petravics")
 
 print ("Zlata Kovakevska")
 
