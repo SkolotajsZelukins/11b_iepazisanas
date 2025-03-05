@@ -3,10 +3,36 @@ atlikums = int(input("Cik atdod atlikumā: "))
 kassa = [50,20,10,5,2,1]
 
 a = atlikums//50
-b = (atlikums - a*50)//20
-c = (atlikums - a*50-b*20)//10
-d = (atlikums - a*50-b*20-c*10)//5
-e = (atlikums - a*50-b*20-c*10-d*5)//2
-f = (atlikums - a*50-b*20-c*10-d*5-e*2)//1
+if a > 0 :
+    print ("vajag 50 eiro banknotes :",a)
+else:
+    pass
 
-print(a,b,c,d,e,f)
+b = (atlikums - a*50)//20
+if b > 0 :
+    print ("vajag 20 eiro banknotes :",b)
+else:
+    pass
+c = (atlikums - a*50-b*20)//10
+if c > 0 :
+    print ("vajag 10 eiro banknotes :",c)
+else:
+    pass
+d = (atlikums - a*50-b*20-c*10)//5
+if d > 0 :
+    print ("vajag 5 eiro banknotes :",d)
+else:
+    pass
+e = (atlikums - a*50-b*20-c*10-d*5)//2
+if e > 0 :
+    print ("vajag 2 eiro banknotes :",e)
+else:
+    pass
+f = (atlikums - a*50-b*20-c*10-d*5-e*2)//1
+if f > 0 :
+    print ("vajag 20 eiro banknotes :",f)
+else:
+    pass
+
+
+#print(a,b,c,d,e,f)
