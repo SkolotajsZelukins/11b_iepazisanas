@@ -22,3 +22,4 @@ print ("Zlata Kovakevska")
 
 print("Sveiciens no Pūces!")
 
+print("Sveiki! -Elvīra Ansone")
